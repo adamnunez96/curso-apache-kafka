@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "StrProducerApplication",
+            "request": "launch",
+            "mainClass": "com.lta.backend.StrProducerApplication",
+            "projectName": "str-producer"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-StrConsumerApplication<str-consumer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.lta.backend.StrConsumerApplication",
+            "projectName": "str-consumer",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
