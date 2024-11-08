@@ -55,7 +55,7 @@ services:
     ports:
       - "8100:8100"
     environment:
-      KAFKA_HOST: kafka:9092
+      KAFKA_HOST: kafka:29092
       
 networks:
   broker-kafka:
